@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "description": "A webpack based template to use with REST APIs",
+  "author": "Giovanne Afonso <giovanneafonso@gmail.com>",
   "scripts": {
     "docs": "cd docs && gitbook serve",
     "docs:deploy": "bash ./deploy-docs.sh"

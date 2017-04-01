@@ -15,7 +15,12 @@
   },
   "dependencies": {
     "vue": "^2.3.3"{{#router}},
-    "vue-router": "^2.6.0"{{/router}}
+    "vue-router": "^2.6.0"{{/router}},
+    "alertifyjs": "^1.10.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "keen-ui": "^1.0.0",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -51,6 +56,11 @@
     {{/lint}}
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.14.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.3.7",
+    "svg-sprite": "^1.3.7",
     "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.11.1",
     "friendly-errors-webpack-plugin": "^1.1.3",
